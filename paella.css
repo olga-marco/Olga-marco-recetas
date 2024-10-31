@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-color: #ab698c;
+}
+
+.contenedor {
+    padding: 20px; /* Espaciado interno */
+    font-size: 18px;
+    color: rgba(227, 189, 161, 0.8);
+    background-color: rgba(133, 64, 102, 0.9); /* Color de fondo con opacidad */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+    font-family: 'DynaPuff', sans-serif;
+    text-align: left; /* Alinear texto a la izquierda */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    width: 90%; /* Ancho adaptable */
+    margin: 20px; /* Margen alrededor del contenedor */
+}
+
+.receta h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Color blanco para el título */
+}
+
+.receta h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #ffcc00; /* Color dorado para subtítulos */
+}
+
+.receta ul, .receta ol {
+    margin: 10px 0;
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+.receta li {
+    margin-bottom: 10px;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.receta a {
+    display: block; /* Hacer que el enlace ocupe todo el ancho */
+    text-align: center; /* Centrar el texto del enlace */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffcc00; /* Color del botón */
+    color: #333; /* Color del texto del botón */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+.espacios {
+    color: #884269;
+}
+
+/*corazones*/
+/* From Uiverse.io by hokageDSL */
+
+.rating > label {
+    margin-right: 4px;
+}
+
+.rating:not(:checked) > input {
+    display: none;
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.rating:not(:checked) > label > svg {
+    fill: #666;
+    transition:
+            fill 0.3s ease,
+            transform 0.3s ease;
+}
+
+.rating > input:checked ~ label > svg {
+    fill: #ff0000;
+    transform: scale(1.1);
+}
+
+.rating:not(:checked) > label:hover ~ label > svg,
+.rating:not(:checked) > label:hover > svg {
+    fill: #ff1a1a;
+    transform: scale(1.05);
+}
+
+#heart1:checked ~ label > svg {
+    fill: #ff0000;
+}
+
+#heart2:checked ~ label > svg {
+    fill: #ff4d00;
+}
+
+#heart3:checked ~ label > svg {
+    fill: #ff9900;
+}
+
+#heart4:checked ~ label > svg {
+    fill: #ccff00;
+}
+
+#heart5:checked ~ label > svg {
+    fill: #66ff00;
+}
+
+#heart6:checked ~ label > svg {
+    fill: #00ff4d;
+}
+
+#heart7:checked ~ label > svg {
+    fill: #00ff99;
+}
+
+#heart8:checked ~ label > svg {
+    fill: #00ccff;
+}
+
+#heart9:checked ~ label > svg {
+    fill: #0059ff;
+}
+
+#heart10:checked ~ label > svg {
+    fill: #9900ff;
+}
+
+#heart1:hover ~ label > svg,
+#heart1:hover > svg {
+    fill: #e60000 !important;
+}
+
+#heart2:hover ~ label > svg,
+#heart2:hover > svg {
+    fill: #e66a00 !important;
+}
+
+#heart3:hover ~ label > svg,
+#heart3:hover > svg {
+    fill: #e6b600 !important;
+}
+
+#heart4:hover ~ label > svg,
+#heart4:hover > svg {
+    fill: #a6e600 !important;
+}
+
+#heart5:hover ~ label > svg,
+#heart5:hover > svg {
+    fill: #00e600 !important;
+}
+
+#heart6:hover ~ label > svg,
+#heart6:hover > svg {
+    fill: #00b3e6 !important;
+}
+
+#heart7:hover ~ label > svg,
+#heart7:hover > svg {
+    fill: #00e6b3 !important;
+}
+
+#heart8:hover ~ label > svg,
+#heart8:hover > svg {
+    fill: #00e6e6 !important;
+}
+
+#heart9:hover ~ label > svg,
+#heart9:hover > svg {
+    fill: #0066e6 !important;
+}
+
+#heart10:hover ~ label > svg,
+#heart10:hover > svg {
+    fill: #6600e6 !important;
+}
+
+/*corazones*/
+
+.receta a:hover {
+    background-color: #e6b800; /* Color más oscuro al pasar el ratón */
+}
